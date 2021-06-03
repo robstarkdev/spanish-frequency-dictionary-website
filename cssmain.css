@@ -1,0 +1,185 @@
+
+
+
+
+@font-face {
+    font-family: 'FuturaLight';
+    src: url('fontfiles/FuturaLight.otf') format('opentype'),
+    url('fontfiles/FuturaLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FuturaMedium';
+    src: url('fontfiles/FuturaMedium.otf') format('opentype'),
+    url('fontfiles/FuturaMedium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BaskervilleBold';
+    src: url('fontfiles/Bask_old_bold.ttf') format('truetype');
+}
+
+body {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+
+.basic_text {
+    font-family: 'FuturaLight', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+
+.strip {
+
+    width: 100%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.strip_header {
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.logo_image {
+    border-radius: 10px;
+    height: 50px;
+    width: auto;
+}
+
+.menu_container {
+    height: 50px;
+    margin-left: auto;
+
+    width: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu_item {
+    font-size: 18px;
+    font-family: 'FuturaMedium', Arial, Helvetica, sans-serif;
+    color: olivedrab;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu_item:hover {
+    color: mediumaquamarine;
+    text-decoration: none;
+
+}
+.menu_item:visited {
+    text-decoration: none;
+}
+
+
+
+
+
+.strip_one_liner {
+
+}
+
+.strip_one_liner_text_box {
+    width: 50%;
+    font-size: 16px;
+    font-family: 'FuturaLight', Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+
+.strip_downloads {
+    justify-content: space-evenly;
+}
+
+.strip_downloads_item {
+    width: 20%;
+
+}
+
+.strip_downloads_item_image {
+    width: 100%;
+    height: auto;
+}
+
+.strip_screenshots {
+    justify-content: center;
+}
+.strip_screenshots_image {
+    width: 15%;
+    height: auto;
+    margin: 20px;
+    border: 1px solid black;
+    /*box-shadow: ;*/
+}
+
+
+.strip_explanation_text {
+
+}
+.explanation_text {
+    width: 60%;
+
+    font-size: 16px;
+    font-family: 'FuturaLight', Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+.faqs_default_text_styles {
+
+    font-size: 18px;
+    font-family: 'FuturaLight', Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.question {
+    font-size: 20px;
+    font-family: 'FuturaMedium', Arial, Helvetica, sans-serif;
+    color: green;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
