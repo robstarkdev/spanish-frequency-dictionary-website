@@ -182,6 +182,10 @@ body {
     }
 
 
+    .strip {
+        padding: 0;
+    }
+
     .explanation_text {
         width: 75%;
 
