@@ -162,7 +162,35 @@ body {
 
 
 
+@media screen and (max-width: 980px) {
 
+    .menu_container {
+        width: 70%;
+    }
+    .menu_item {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .strip_downloads {
+        flex-direction: column;
+    }
+    .strip_screenshots {
+        flex-direction: column;
+    }
+    .strip_downloads_item {
+        width: 70%;
+    }
+
+    .strip_screenshots_image {
+        width: 70%;
+        height: auto;
+        margin: 20px;
+        border: 1px solid black;
+        /*box-shadow: ;*/
+    }
+
+}
 
 
 

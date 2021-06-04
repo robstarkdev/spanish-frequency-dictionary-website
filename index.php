@@ -38,8 +38,8 @@
         <img class="strip_downloads_item_image" src="images/download_google.png" alt="spanish frequency dictionary google android app">
     </a>
 
-    <a class="strip_downloads_a_tag" href="https://apps.apple.com/us/app/spanish-frequency-dictionary/id1568942028">
-        <img class="strip_downloads_item_image" src="images/download_apple.png" alt="spanish frequency dictionary apple iphone app" style="width: 90%;">
+    <a class="strip_downloads_item" href="https://apps.apple.com/us/app/spanish-frequency-dictionary/id1568942028">
+        <img class="strip_downloads_item_image" src="images/download_apple.png" alt="spanish frequency dictionary apple iphone app">
     </a>
     
 
