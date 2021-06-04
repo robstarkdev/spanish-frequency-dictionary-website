@@ -159,6 +159,29 @@ body {
 
 @media screen and (max-width: 980px) {
 
+
+    .strip_header {
+
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .logo_image {
+        border-radius: 10px;
+        width: 15%;
+        height: auto;
+    }
+    .menu_container {
+        width: 80%;
+    }
+    .menu_item {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+
     .explanation_text {
         width: 75%;
 
